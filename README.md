@@ -1,2 +1,2 @@
 # Scrappy
-Keep personal notes on today's top headlines
+Keep personal notes on today's top headlines.

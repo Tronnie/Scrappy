@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Scrappy!</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Moment.js -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.16.0/moment.min.js"></script>
+
+    <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Play|Quicksand" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+  <body>
+
+    <div class="jumbotron">
+
+      <h1 class="text-center">Scrappy: Headline Scraper and Notes Keeper</h1>
+
+      <button type="scrapeButton" btn btn-warning>Scrape news Articles</btn>
+
+      <button type="savedButton" btn btn-warning>Saved Articles</btn>
+
+      <button type="homeButton" btn btn-warning>Home</btn>
+
+
+    </div>
+
+
+
+    <div class="container">
+
+      <div class="row">
+        <div id="wrapper">
+          <h1>Click on a Headline to save a note. </h1>
+
+        <div class="row">
+          <div class=col-sm-8>
+            <img src="./css/img/gif-boy.gif" alt="gif-boy" float="right" />
+          </div>
+
+            <div class=col-sm-4>
+              <div id="notes"></div>
+            </div>
+        </div>
+
+
+          <h2><i> Today's top headlines: </i></h2>
+
+
+
+          <div id="articles"></div>
+
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+
+      </div>
+
+    </div> <!--container-->
+
+    <!-- <script type="text/javascript" src="js/chirp.js"></script> -->
+
+    <br />
+
+<footer>
+
+
+    <div class="panel panel-default">
+      <div class="panel-footer"><strong>&copy;2017 Scrappy&trade; </strong> All Rights Reserved.
+      </div>
+    </div>
+</footer>
+  </body>
+</html>
