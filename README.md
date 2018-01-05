@@ -1,5 +1,5 @@
 # Scrappy
-Keep personal notes on today's top headlines.
+Scraping headlines from the New York Times, saving to a Mongo Database has never been easier using npm packages.  Additionally, you can save notes and articles to refer to at a later time.  
 
 ![App](./public/css/img/addNote.png)
 
@@ -11,7 +11,7 @@ This application will look for the story heading in the New York Times and prese
 
 ![Json](./public/css/img/json-articles.png)
 
-### Prerequesites
+### Prerequisites
 * npm packages
   * express
   * body-parser
