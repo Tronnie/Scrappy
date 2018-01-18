@@ -30,7 +30,7 @@ app.use(express.static("public"));
 // Connect to the Mongo DB
 mongoose.Promise = Promise;
 
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/NYTScraper";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/NYTScraper2";
 //
 // mongoose.connect("mongodb://localhost/NYTscraper",
 mongoose.connect("mongodb://localhost/NYTscraper2", //using a new db for today's headlines!! change each time or delete db...
