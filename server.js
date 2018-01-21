@@ -33,7 +33,7 @@ mongoose.Promise = Promise;
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/NYTScraper2";
 //
 // mongoose.connect("mongodb://localhost/NYTscraper",
-mongoose.connect("mongodb://localhost/NYTscraper2", //using a new db for today's headlines!! change each time or delete db...
+// mongoose.connect("mongodb://localhost/NYTscraper2", //using a new db for today's headlines!! change each time or delete db...
 
 mongoose.connect("mongodb://heroku_dq3rvj5h:pgoaq5733thddo1vjobc9h8v4n@ds121686.mlab.com:21686/heroku_dq3rvj5h",
 
